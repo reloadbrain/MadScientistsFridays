@@ -1,41 +1,20 @@
-# BAAI313
-Code for Microsoft Ready BAAI313
-
-# Introduction
-
-This is demo code for the MS Ready Talk TECH-BAAI313 - 50ms scoring with Microsoft R, 
-A Customer's journey from SQL Server2016CTP3 to Microsoft R o16n
-
-# What this Contains
-## Demo1OperationalizeStandard.R
-
-Code for the first demo on how to operationalize Open Source R models; specifically a
-Logistic Regression Model. 
-
-There are two parts to this code; first we send the model as part of the publish webservice
-and this registers in the sqlite db of Microsoft R o16n
-
-The second part saves the model on a local file-system and we load it off the native file
-system at every execution call. 
-
-## Demo2OperationalizeRealTime.R
-
-Code for the second demo on Real-Time Operationalization of Microsoft R (ScaleR) models.
+#Links to MIcrosoft ML - R/Python Training Github
 
 
-## LogisticModel.RData
+These are Training Materials from the Learn Analytics - Post Revolution Analytics Acqusition Team
 
-The open-source Logistic Model used
+[Doing Data Analysis Using R and Microsoft R Open](https://github.com/Azure/LearnAnalytics-DoingDataAnalysisusingRandMicrosoftROpen)
 
+[Big Data with Microsoft R Server](https://github.com/Azure/LearnAnalytics-AnalyzingBigDataWithMRS)
 
-## sampleData.RData
+[SQL Server R Services](https://github.com/Azure/LearnAnalytics-SQLServerRServices)
 
-Sample Airline Dataset (50k rows)
+[Microsoft R For Architects](https://github.com/Azure/LearnAnalytics-MicrosoftRforArchitects)
 
-# Prerequisites
+[Microsoft R for SQL Server Professional](https://github.com/Azure/LearnAnalytics-MicrosoftRforSQLServerProfessional)
 
-* Microsoft R Client 9.1
-* Microsoft R Server 9.1 with Microsoft R o16n 9.1 configured
+[MIcrosoft R for Data Science](https://azure.github.io/LearnAnalytics-mr4ds/)
 
-To speed things up; use the DSVM Windows on Azure MarketPlace and open port 12800
-for Microsoft R o16n. 
+[Microsoft R - Spark](https://github.com/Azure/LearnAnalytics-mrs-spark)
+
+[Microsoft R - Data Science & Spark](https://github.com/Azure/LearnAnalytics-mr4ds-spark)
